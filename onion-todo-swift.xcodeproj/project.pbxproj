@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EA128E72156CE67001A6F1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA128E62156CE67001A6F1E /* AppDelegate.swift */; };
+		5EA128EC2156CE67001A6F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA128EA2156CE67001A6F1E /* Main.storyboard */; };
+		5EA128EF2156CE67001A6F1E /* onion_todo_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EA128ED2156CE67001A6F1E /* onion_todo_swift.xcdatamodeld */; };
+		5EA128F12156CE67001A6F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA128F02156CE67001A6F1E /* Assets.xcassets */; };
+		5EA128F42156CE67001A6F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA128F22156CE67001A6F1E /* LaunchScreen.storyboard */; };
+		5EA128FF2156CE68001A6F1E /* onion_todo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA128FE2156CE68001A6F1E /* onion_todo_swiftTests.swift */; };
+		5EA1290A2156CE68001A6F1E /* onion_todo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129092156CE68001A6F1E /* onion_todo_swiftUITests.swift */; };
+		5EA129232156D12E001A6F1E /* TodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129222156D12E001A6F1E /* TodoController.swift */; };
+		5EA129242156D12E001A6F1E /* TodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129222156D12E001A6F1E /* TodoController.swift */; };
+		5EA129252156D12E001A6F1E /* TodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129222156D12E001A6F1E /* TodoController.swift */; };
+		5EA1292E2156D213001A6F1E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1292D2156D213001A6F1E /* Task.swift */; };
+		5EA1292F2156D213001A6F1E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1292D2156D213001A6F1E /* Task.swift */; };
+		5EA129302156D213001A6F1E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1292D2156D213001A6F1E /* Task.swift */; };
+		5EA129332156D422001A6F1E /* TaskCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129322156D422001A6F1E /* TaskCreator.swift */; };
+		5EA129372156D58E001A6F1E /* TaskRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129362156D58E001A6F1E /* TaskRepositoryProtocol.swift */; };
+		5EA1293A2156D6A7001A6F1E /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129392156D6A7001A6F1E /* TaskRepository.swift */; };
+		5EA1293C2156D802001A6F1E /* TaskBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1293B2156D802001A6F1E /* TaskBrowser.swift */; };
+		5EA1293E2156EBFC001A6F1E /* NewTaskController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA1293D2156EBFC001A6F1E /* NewTaskController.swift */; };
+		5EA129412156F078001A6F1E /* TaskName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129402156F078001A6F1E /* TaskName.swift */; };
+		5EA129442156F26C001A6F1E /* SpecificationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129432156F26C001A6F1E /* SpecificationProtocol.swift */; };
+		5EA129462156F2FA001A6F1E /* PoliteName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129452156F2FA001A6F1E /* PoliteName.swift */; };
+		5EA129482156F417001A6F1E /* TaskError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA129472156F417001A6F1E /* TaskError.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EA128FB2156CE67001A6F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA128DB2156CE67001A6F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA128E22156CE67001A6F1E;
+			remoteInfo = "onion-todo-swift";
+		};
+		5EA129062156CE68001A6F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EA128DB2156CE67001A6F1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EA128E22156CE67001A6F1E;
+			remoteInfo = "onion-todo-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EA128E32156CE67001A6F1E /* onion-todo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onion-todo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA128E62156CE67001A6F1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EA128EB2156CE67001A6F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EA128EE2156CE67001A6F1E /* onion_todo_swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = onion_todo_swift.xcdatamodel; sourceTree = "<group>"; };
+		5EA128F02156CE67001A6F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA128F32156CE67001A6F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EA128F52156CE67001A6F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA128FA2156CE67001A6F1E /* onion-todo-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onion-todo-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA128FE2156CE68001A6F1E /* onion_todo_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onion_todo_swiftTests.swift; sourceTree = "<group>"; };
+		5EA129002156CE68001A6F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA129052156CE68001A6F1E /* onion-todo-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "onion-todo-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA129092156CE68001A6F1E /* onion_todo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onion_todo_swiftUITests.swift; sourceTree = "<group>"; };
+		5EA1290B2156CE68001A6F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA129222156D12E001A6F1E /* TodoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoController.swift; sourceTree = "<group>"; };
+		5EA1292D2156D213001A6F1E /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		5EA129322156D422001A6F1E /* TaskCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreator.swift; sourceTree = "<group>"; };
+		5EA129362156D58E001A6F1E /* TaskRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepositoryProtocol.swift; sourceTree = "<group>"; };
+		5EA129392156D6A7001A6F1E /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		5EA1293B2156D802001A6F1E /* TaskBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBrowser.swift; sourceTree = "<group>"; };
+		5EA1293D2156EBFC001A6F1E /* NewTaskController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskController.swift; sourceTree = "<group>"; };
+		5EA129402156F078001A6F1E /* TaskName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskName.swift; sourceTree = "<group>"; };
+		5EA129432156F26C001A6F1E /* SpecificationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificationProtocol.swift; sourceTree = "<group>"; };
+		5EA129452156F2FA001A6F1E /* PoliteName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliteName.swift; sourceTree = "<group>"; };
+		5EA129472156F417001A6F1E /* TaskError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA128E02156CE67001A6F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA128F72156CE67001A6F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA129022156CE68001A6F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EA128DA2156CE67001A6F1E = {
+			isa = PBXGroup;
+			children = (
+				5EA129202156D12E001A6F1E /* Todo */,
+				5EA128E52156CE67001A6F1E /* onion-todo-swift */,
+				5EA128FD2156CE68001A6F1E /* onion-todo-swiftTests */,
+				5EA129082156CE68001A6F1E /* onion-todo-swiftUITests */,
+				5EA128E42156CE67001A6F1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA128E42156CE67001A6F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA128E32156CE67001A6F1E /* onion-todo-swift.app */,
+				5EA128FA2156CE67001A6F1E /* onion-todo-swiftTests.xctest */,
+				5EA129052156CE68001A6F1E /* onion-todo-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA128E52156CE67001A6F1E /* onion-todo-swift */ = {
+			isa = PBXGroup;
+			children = (
+				5EA128E62156CE67001A6F1E /* AppDelegate.swift */,
+				5EA128EA2156CE67001A6F1E /* Main.storyboard */,
+				5EA128F02156CE67001A6F1E /* Assets.xcassets */,
+				5EA128F22156CE67001A6F1E /* LaunchScreen.storyboard */,
+				5EA128F52156CE67001A6F1E /* Info.plist */,
+				5EA128ED2156CE67001A6F1E /* onion_todo_swift.xcdatamodeld */,
+			);
+			path = "onion-todo-swift";
+			sourceTree = "<group>";
+		};
+		5EA128FD2156CE68001A6F1E /* onion-todo-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				5EA128FE2156CE68001A6F1E /* onion_todo_swiftTests.swift */,
+				5EA129002156CE68001A6F1E /* Info.plist */,
+			);
+			path = "onion-todo-swiftTests";
+			sourceTree = "<group>";
+		};
+		5EA129082156CE68001A6F1E /* onion-todo-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129092156CE68001A6F1E /* onion_todo_swiftUITests.swift */,
+				5EA1290B2156CE68001A6F1E /* Info.plist */,
+			);
+			path = "onion-todo-swiftUITests";
+			sourceTree = "<group>";
+		};
+		5EA129202156D12E001A6F1E /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				5EA1292C2156D208001A6F1E /* Application */,
+				5EA1292B2156D208001A6F1E /* Infrastructure */,
+				5EA129262156D1E4001A6F1E /* Domain */,
+				5EA129212156D12E001A6F1E /* UI */,
+			);
+			name = Todo;
+			path = "onion-todo-swift/Todo";
+			sourceTree = "<group>";
+		};
+		5EA129212156D12E001A6F1E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129222156D12E001A6F1E /* TodoController.swift */,
+				5EA1293D2156EBFC001A6F1E /* NewTaskController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5EA129262156D1E4001A6F1E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				5EA1292D2156D213001A6F1E /* Task.swift */,
+				5EA129342156D52A001A6F1E /* Task */,
+				5EA129432156F26C001A6F1E /* SpecificationProtocol.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		5EA1292B2156D208001A6F1E /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129382156D677001A6F1E /* Repository */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		5EA1292C2156D208001A6F1E /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129312156D380001A6F1E /* TaskManager */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5EA129312156D380001A6F1E /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129322156D422001A6F1E /* TaskCreator.swift */,
+				5EA1293B2156D802001A6F1E /* TaskBrowser.swift */,
+			);
+			path = TaskManager;
+			sourceTree = "<group>";
+		};
+		5EA129342156D52A001A6F1E /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129422156F240001A6F1E /* Specification */,
+				5EA1293F2156F06B001A6F1E /* ValueObject */,
+				5EA129352156D569001A6F1E /* Service */,
+				5EA129472156F417001A6F1E /* TaskError.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		5EA129352156D569001A6F1E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129362156D58E001A6F1E /* TaskRepositoryProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5EA129382156D677001A6F1E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129392156D6A7001A6F1E /* TaskRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5EA1293F2156F06B001A6F1E /* ValueObject */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129402156F078001A6F1E /* TaskName.swift */,
+			);
+			path = ValueObject;
+			sourceTree = "<group>";
+		};
+		5EA129422156F240001A6F1E /* Specification */ = {
+			isa = PBXGroup;
+			children = (
+				5EA129452156F2FA001A6F1E /* PoliteName.swift */,
+			);
+			path = Specification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA128E22156CE67001A6F1E /* onion-todo-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA1290E2156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swift" */;
+			buildPhases = (
+				5EA128DF2156CE67001A6F1E /* Sources */,
+				5EA128E02156CE67001A6F1E /* Frameworks */,
+				5EA128E12156CE67001A6F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "onion-todo-swift";
+			productName = "onion-todo-swift";
+			productReference = 5EA128E32156CE67001A6F1E /* onion-todo-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EA128F92156CE67001A6F1E /* onion-todo-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA129112156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swiftTests" */;
+			buildPhases = (
+				5EA128F62156CE67001A6F1E /* Sources */,
+				5EA128F72156CE67001A6F1E /* Frameworks */,
+				5EA128F82156CE67001A6F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA128FC2156CE67001A6F1E /* PBXTargetDependency */,
+			);
+			name = "onion-todo-swiftTests";
+			productName = "onion-todo-swiftTests";
+			productReference = 5EA128FA2156CE67001A6F1E /* onion-todo-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5EA129042156CE68001A6F1E /* onion-todo-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA129142156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swiftUITests" */;
+			buildPhases = (
+				5EA129012156CE68001A6F1E /* Sources */,
+				5EA129022156CE68001A6F1E /* Frameworks */,
+				5EA129032156CE68001A6F1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EA129072156CE68001A6F1E /* PBXTargetDependency */,
+			);
+			name = "onion-todo-swiftUITests";
+			productName = "onion-todo-swiftUITests";
+			productReference = 5EA129052156CE68001A6F1E /* onion-todo-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA128DB2156CE67001A6F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = FornaceSrl;
+				TargetAttributes = {
+					5EA128E22156CE67001A6F1E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5EA128F92156CE67001A6F1E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5EA128E22156CE67001A6F1E;
+					};
+					5EA129042156CE68001A6F1E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5EA128E22156CE67001A6F1E;
+					};
+				};
+			};
+			buildConfigurationList = 5EA128DE2156CE67001A6F1E /* Build configuration list for PBXProject "onion-todo-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EA128DA2156CE67001A6F1E;
+			productRefGroup = 5EA128E42156CE67001A6F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA128E22156CE67001A6F1E /* onion-todo-swift */,
+				5EA128F92156CE67001A6F1E /* onion-todo-swiftTests */,
+				5EA129042156CE68001A6F1E /* onion-todo-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA128E12156CE67001A6F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA128F42156CE67001A6F1E /* LaunchScreen.storyboard in Resources */,
+				5EA128F12156CE67001A6F1E /* Assets.xcassets in Resources */,
+				5EA128EC2156CE67001A6F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA128F82156CE67001A6F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA129032156CE68001A6F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA128DF2156CE67001A6F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA1292E2156D213001A6F1E /* Task.swift in Sources */,
+				5EA129232156D12E001A6F1E /* TodoController.swift in Sources */,
+				5EA129482156F417001A6F1E /* TaskError.swift in Sources */,
+				5EA129332156D422001A6F1E /* TaskCreator.swift in Sources */,
+				5EA1293C2156D802001A6F1E /* TaskBrowser.swift in Sources */,
+				5EA129412156F078001A6F1E /* TaskName.swift in Sources */,
+				5EA128EF2156CE67001A6F1E /* onion_todo_swift.xcdatamodeld in Sources */,
+				5EA128E72156CE67001A6F1E /* AppDelegate.swift in Sources */,
+				5EA1293E2156EBFC001A6F1E /* NewTaskController.swift in Sources */,
+				5EA129372156D58E001A6F1E /* TaskRepositoryProtocol.swift in Sources */,
+				5EA129462156F2FA001A6F1E /* PoliteName.swift in Sources */,
+				5EA1293A2156D6A7001A6F1E /* TaskRepository.swift in Sources */,
+				5EA129442156F26C001A6F1E /* SpecificationProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA128F62156CE67001A6F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA128FF2156CE68001A6F1E /* onion_todo_swiftTests.swift in Sources */,
+				5EA1292F2156D213001A6F1E /* Task.swift in Sources */,
+				5EA129242156D12E001A6F1E /* TodoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EA129012156CE68001A6F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA1290A2156CE68001A6F1E /* onion_todo_swiftUITests.swift in Sources */,
+				5EA129302156D213001A6F1E /* Task.swift in Sources */,
+				5EA129252156D12E001A6F1E /* TodoController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EA128FC2156CE67001A6F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA128E22156CE67001A6F1E /* onion-todo-swift */;
+			targetProxy = 5EA128FB2156CE67001A6F1E /* PBXContainerItemProxy */;
+		};
+		5EA129072156CE68001A6F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EA128E22156CE67001A6F1E /* onion-todo-swift */;
+			targetProxy = 5EA129062156CE68001A6F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5EA128EA2156CE67001A6F1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA128EB2156CE67001A6F1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EA128F22156CE67001A6F1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA128F32156CE67001A6F1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA1290C2156CE68001A6F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EA1290D2156CE68001A6F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA1290F2156CE68001A6F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA129102156CE68001A6F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5EA129122156CE68001A6F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onion-todo-swift.app/onion-todo-swift";
+			};
+			name = Debug;
+		};
+		5EA129132156CE68001A6F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onion-todo-swift.app/onion-todo-swift";
+			};
+			name = Release;
+		};
+		5EA129152156CE68001A6F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "onion-todo-swift";
+			};
+			name = Debug;
+		};
+		5EA129162156CE68001A6F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2V6YSU4HFB;
+				INFOPLIST_FILE = "onion-todo-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.fornace.onion-todo-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "onion-todo-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA128DE2156CE67001A6F1E /* Build configuration list for PBXProject "onion-todo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA1290C2156CE68001A6F1E /* Debug */,
+				5EA1290D2156CE68001A6F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA1290E2156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA1290F2156CE68001A6F1E /* Debug */,
+				5EA129102156CE68001A6F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA129112156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA129122156CE68001A6F1E /* Debug */,
+				5EA129132156CE68001A6F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA129142156CE68001A6F1E /* Build configuration list for PBXNativeTarget "onion-todo-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA129152156CE68001A6F1E /* Debug */,
+				5EA129162156CE68001A6F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EA128ED2156CE67001A6F1E /* onion_todo_swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5EA128EE2156CE67001A6F1E /* onion_todo_swift.xcdatamodel */,
+			);
+			currentVersion = 5EA128EE2156CE67001A6F1E /* onion_todo_swift.xcdatamodel */;
+			path = onion_todo_swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA128DB2156CE67001A6F1E /* Project object */;
+}
